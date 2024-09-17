@@ -15,7 +15,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("const moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nconsole.log(\"Hello from js\");\n\nvar datetime = moment().startOf(\"day\").fromNow();\nconsole.log(datetime);\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
+eval("const moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nconsole.log(\"Hello from js\");\n\nvar datetime = moment().startOf(\"day\").fromNow();\nconsole.log(datetime);\nconsole.log(moment().format('MMMM Do YYYY, h:mm:ss a'));\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
 
 /***/ }),
 
