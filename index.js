@@ -34,6 +34,8 @@ var bob = {
   }
 };
 bob._friends.push("Jimmy");
+bob._friends.push("Doug");
+bob._friends.push("Biff");
 bob.printFriends();
 
 // Lexical arguments
